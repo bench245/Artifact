@@ -349,7 +349,7 @@ function artifact.cutscene_vix()
                 artifact.display_dialogue("Not surprising, really. It was worth a shot, though.", "artifact_key_splash.png", 5, "Key: ")
             end},
             {k = "175", fn = function(scn)
-                artifact.display_dialogue("Tip: You can switch between Key and Vix using the item in the ourth slot of your hotbar.", "artifact_generic_splash.png", 5, "[ ! ] ")
+                artifact.display_dialogue("Tip: You can switch between Key and Vix using the item in the fourth slot of your hotbar.", "artifact_generic_splash.png", 5, "[ ! ] ")
             end},
             {k = "185", fn = function(scn)
                 artifact.display_dialogue("Tip: Vix can power cerain nodes by firing energy bursts at them.", "artifact_generic_splash.png", 5, "[ ! ] ")
