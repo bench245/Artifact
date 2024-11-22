@@ -276,7 +276,7 @@ minetest.register_globalstep(function()
         
         --if artifact.story.state == artifact.story.state_vix then
             if minetest.get_node(p:get_pos()).name == "artifact:kill_node" then
-                p:set_pos()
+                p:set_pos(vector.new(-912,-933,-943))
             end
         --end
         
