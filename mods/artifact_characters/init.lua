@@ -188,7 +188,7 @@ minetest.register_on_joinplayer(function(p)
     end
     if artifact.story.state < artifact.story.state_start then
         p:set_pos(artifact.poi.region1)
-        minetest.after(0, artifact.cutscene_start)
+        artifact.cutscene_start()
     end
     if not artifact.debug then
         p:set_inventory_formspec("")
