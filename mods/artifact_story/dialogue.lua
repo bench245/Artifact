@@ -55,7 +55,7 @@ function artifact.display_dialogue(msg, splash, time, sender)
             type = "text",
             text = str,
             number = 0xffffff,
-            size = {x=1.5},
+            size = {x=1.5, y=1.5},
             scale = {x=100, y=100},
             alignment = {x=1, y=1},
             position = {x=0, y=0},
